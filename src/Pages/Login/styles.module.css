@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 100vh;
+}
+
+.title {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.text {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.input {
+    display: block;
+    box-sizing: border-box;
+    margin: 0;
+    color: inherit;
+    width: 200px;
+    height: 30px;
+    font-family: inherit;
+    font-weight: inherit;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding: 0 10px;
+}
+
+.input::placeholder {
+    color: grey;
+}
+
+.input:disabled {
+    cursor: not-allowed;
+}
+
+.description {
+    font-size: 18px;
+    text-align: center;
+
+    margin-bottom: 20px;
+
+    max-width: 520px;
+}
+
+.error {
+    font-size: 16px;
+    color: red;
+    margin-bottom: 10px;
+}
