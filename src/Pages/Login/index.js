@@ -32,7 +32,7 @@ export const LoginPage = () => {
                 onChange={(e) => setValue(e.target.value)}
                 disabled={isLoading}
                 className={styles.input}
-                placeholder={'Введите № игры'}
+                placeholder={'Введите id игрока'}
             />
 
             {gameError && <p className={styles.error}>{gameError}</p>}
